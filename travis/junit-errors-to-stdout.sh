@@ -2,8 +2,10 @@
 IFS='
 '
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-echo 'Installing xml-twig-tools and xsltproc....'
-sudo apt-get install -qq -y --force-yes xml-twig-tools xsltproc > /dev/null
+if [ "$TRAVIS" = "true" ]; then
+	echo 'Installing xml-twig-tools and xsltproc....'
+	sudo apt-get install -qq -y --force-yes xml-twig-tools xsltproc > /dev/null
+fi
 ROOTDIR="$1"
 if [ -z "$ROOTDIR" ]; then
 	ROOTDIR="."
