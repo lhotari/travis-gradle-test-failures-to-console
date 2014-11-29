@@ -1,3 +1,4 @@
+<!-- based on SO answer http://stackoverflow.com/a/9471505/166062 by dvdvorle http://stackoverflow.com/users/481635/dvdvorle -->
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:str="http://xsltproc.org/xslt/string" extension-element-prefixes="str">
   <xsl:output method="text" indent="no"/>
