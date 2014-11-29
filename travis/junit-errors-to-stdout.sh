@@ -13,7 +13,7 @@ fi
 echo 'Formatting results...'
 FILES=$(find "$ROOTDIR" -path '*/build/test-results/*.xml' | xargs --no-run-if-empty xml_grep --files --cond 'testsuite[@failures > 0 or @errors > 0]')
 if [ -n "$FILES" ]; then
-	for file in "$FILES"; do
+	for file in $FILES; do
 		echo "Formatting $file"
 		if [ -f "$file" ]; then
 			echo '====================================================='
