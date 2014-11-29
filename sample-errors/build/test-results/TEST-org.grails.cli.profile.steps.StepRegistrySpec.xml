@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grails.cli.profile.steps.StepRegistrySpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-11-28T09:13:19" hostname="testing-worker-linux-11-2-31484-linux-11-42372784" time="0.023">
+  <properties/>
+  <testcase name="Test the step registry finds registered steps" classname="org.grails.cli.profile.steps.StepRegistrySpec" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

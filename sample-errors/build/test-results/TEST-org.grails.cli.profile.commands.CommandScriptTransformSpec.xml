@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.grails.cli.profile.commands.CommandScriptTransformSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-11-28T09:09:54" hostname="testing-worker-linux-11-2-31484-linux-11-42372784" time="1.063">
+  <properties/>
+  <testcase name="Test that the CommandScriptTransform correctly populates the description" classname="org.grails.cli.profile.commands.CommandScriptTransformSpec" time="1.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
